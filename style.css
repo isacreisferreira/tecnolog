@@ -1,0 +1,178 @@
+body,
+h1,
+h2,
+h3,
+h4,
+ul,
+li,
+a {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Courier New", Courier, monospace;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header-bg {
+  background: #e7e7e7;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.menu a {
+  color: #111;
+}
+
+.logo-titulo {
+  font-size: 40px;
+  color: #111;
+  cursor: pointer;
+}
+
+.conteudo-bg {
+  background: #e7e7e7;
+  padding-top: 80px;
+}
+
+.conteudo {
+  max-width: 500px;
+  padding-bottom: 80px;
+}
+
+.conteudo h1 {
+  font-size: 40px;
+}
+
+.conteudo p {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.botao {
+  background: none;
+  border: 1px solid #fff;
+  padding: 20px;
+  right: 50%;
+  color: #111;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.cursos-info-bg {
+  background: #f7f7f7;
+  padding: 30px;
+}
+
+.cursos-info-lista {
+  background: #fff;
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  gap: 30px;
+  font-size: 20px;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.cursos-info-lista ul li {
+  padding: 10px 0px;
+}
+
+.lista-item li + li {
+  border-top: 1px solid #111;
+}
+
+.cursos-frontend {
+  background: #f7f7f7;
+  padding-bottom: 90px;
+}
+
+.cursos-frontend h1 {
+  text-align: center;
+  padding-top: 80px;
+  font-size: 50px;
+}
+
+.cursos-frontend p {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.curso {
+  max-width: 460px;
+  text-align: center;
+}
+
+.footer {
+  background: #e7e7e7;
+  padding: 30px;
+  text-align: center;
+}
+
+.footer h1 {
+  font-size: 25px;
+}
+
+@media (max-width: 800px) {
+  .lista-item {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 700px) {
+  .conteudo {
+    padding-bottom: 50px;
+    max-width: 350px;
+  }
+  .conteudo h1 {
+    font-size: 30px;
+  }
+  .conteudo p {
+    font-size: 16px;
+  }
+  .conteudo a {
+    width: 170px;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+  .header h1 {
+    padding-bottom: 20px;
+  }
+  .curso {
+    max-width: 300px;
+  }
+  .curso h1 {
+    font-size: 40px;
+  }
+  .curso p {
+    font-size: 20px;
+  }
+  .footer {
+    padding: 20px;
+  }
+}
