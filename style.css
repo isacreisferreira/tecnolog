@@ -145,7 +145,7 @@ a {
 @media (max-width: 700px) {
   .conteudo {
     padding-bottom: 50px;
-    max-width: 350px;
+    max-width: 300px;
   }
   .conteudo h1 {
     font-size: 30px;
@@ -159,6 +159,7 @@ a {
   .header {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
   .header h1 {
     padding-bottom: 20px;
@@ -174,5 +175,14 @@ a {
   }
   .footer {
     padding: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .menu{
+    font-size: 16px;
+  }
+  .lista-item {
+    font-size: 15px;
   }
 }
